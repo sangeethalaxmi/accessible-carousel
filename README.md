@@ -76,6 +76,15 @@ The goal is to **test and improve accessibility** with keyboard navigation and s
 
 ---
 
+## existing issue with NVDA
+
+- The left and right arrow functionality on browser works fine but when NVDA tries to read the arrow press on prev/next buttons it is not working as expected.I found that it is existing issue with NVDA application itself.
+
+# reference links of above issue
+
+https://github.com/nvaccess/nvda/issues/11143#issuecomment-1709339265
+https://github.com/nvaccess/nvda/issues/15802
+
 ## How to Run
 
 ```bash
