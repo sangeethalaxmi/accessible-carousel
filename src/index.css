@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.react-slideshow-wrapper,
+.react-slideshow-wrapper img,
+.each-slide-effect {
+  width: 100% !important;
+}
+
+button:focus,
+[tabindex="0"]:focus {
+  outline: 2px solid #007acc;
+  outline-offset: 2px;
+}
