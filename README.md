@@ -15,6 +15,7 @@ The goal is to **test and improve accessibility** with keyboard navigation and s
 - [x] Pause/Play toggle for auto-play behavior
 - [x] Keyboard arrow navigation support
 - [x] `aria-live`, `aria-label`, `role=region` for screen reader enhancements
+- [x] lighthouse score for Accessiblity is 100%
 
 ---
 
