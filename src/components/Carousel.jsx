@@ -143,18 +143,13 @@ export default function Carousel() {
         {slides.map((image, index) => (
           <div
             key={index}
-            style={{
-              border:
-                current === index
-                  ? "4px solid #007acc"
-                  : "2px solid transparent",
-              borderRadius: "8px",
-              transition: "border 0.3s ease",
-            }}
+            className={`${
+              current === index ? "active" : "border border-transparent"
+            }`}
             aria-hidden={current !== index}
             tabIndex={current === index ? 0 : -1}
           >
-            <img src={image.url} alt={image.alt} className="w-full h-auto" />
+            <img src={image.url} alt={image.alt} className="w-full h-auto " />
           </div>
         ))}
       </Fade>
