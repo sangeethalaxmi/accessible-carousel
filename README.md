@@ -92,3 +92,7 @@ https://github.com/nvaccess/nvda/issues/15802
 npm install
 npm run dev
 ```
+
+## Live demo link
+
+https://accessiblecarousel.netlify.app/
